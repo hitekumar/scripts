@@ -117,7 +117,7 @@ map <C-I> :cs find i <C-R>=expand("<cfile>")<CR><CR>
 map <S-V> ?<C-R>=expand("<cword>")<CR><CR>
 map <C-X> :buffers<CR>
 
-"avinash - to make ctrl c, ctrl v work
+"To make ctrl c, ctrl v work
 " vmap <C-c> "+yi
 "vmap <C-x> "+c
 "vmap <C-v> c<ESC>"+p
